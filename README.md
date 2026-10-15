@@ -2,7 +2,7 @@
 
 An end-to-end analytics project that identifies **why customers leave, who is most at risk, and how much revenue is on the line**, using MySQL for data preparation and Power BI for an interactive dashboard.
 
-![Dashboard](dashboard.png)
+![Dashboard](images/dashboard.png)
 
 ## Project Overview
 
