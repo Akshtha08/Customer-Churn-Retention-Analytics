@@ -71,6 +71,4 @@ An end-to-end analytics project that identifies **why customers leave, who is mo
 1. Load the dataset into MySQL (tables `customers`, `services`, `billing`) and run `sql/churn_analysis.sql` top to bottom. It creates `churn_view`, prints the KPIs and analysis results, and exports the view to CSV.
 2. Open `powerbi/churncustomers.pbix` in Power BI Desktop and refresh the data source.
 
-## Author
 
-**Suzy** · [LinkedIn](#) · [GitHub](#)
