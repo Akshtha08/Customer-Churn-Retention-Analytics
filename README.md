@@ -2,14 +2,14 @@
 
 An end-to-end analytics project that identifies **why customers leave, who is most at risk, and how much revenue is on the line**, using MySQL for data preparation and Power BI for an interactive dashboard.
 
-![Dashboard](images/dashboard.png)
+![Dashboard](dashboard.png)
 
 ## Project Overview
 
 | | |
 |---|---|
-| **Goal** | Identify churn patterns, retention trends and high-risk customer segments |
-| **Data** | Telecom customer subscription data (7,043 customers, contract, tenure, pricing and service attributes) |
+| **Goal** | Identify churn patterns, retention drivers and high-risk customer segments |
+| **Data** | [Telco Customer Churn dataset (Kaggle)](https://www.kaggle.com/datasets/blastchar/telco-customer-churn): 7,043 customers with contract, tenure, pricing and service attributes |
 | **Tools** | MySQL, SQL, Power BI (DAX) |
 | **Output** | Cleaned SQL view (`churn_view`), interactive dashboard, retention recommendations |
 
@@ -70,5 +70,4 @@ An end-to-end analytics project that identifies **why customers leave, who is mo
 
 1. Load the dataset into MySQL (tables `customers`, `services`, `billing`) and run `sql/churn_analysis.sql` top to bottom. It creates `churn_view`, prints the KPIs and analysis results, and exports the view to CSV.
 2. Open `powerbi/churncustomers.pbix` in Power BI Desktop and refresh the data source.
-
 
